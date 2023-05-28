@@ -1,0 +1,55 @@
+* {
+  font-family: "Hack", monospace;
+}
+
+window {
+  background-color: #3B4252;
+  border-radius: 20px;
+}
+
+#input {
+  margin: 5px;
+  border-radius: 0px;
+  border: none;
+  background-color: #3B4252;
+  color: white;
+}
+
+#inner-box {
+  background-color: #383C4A;
+  border-radius: 20px;
+}
+
+#outer-box {
+  margin: 2px;
+  padding: 10px;
+  background-color: #383C4A;
+  border-radius: 20px;
+}
+
+#scroll {
+  margin: 5px;
+}
+
+#text {
+  padding: 4px;
+  color: white;
+}
+
+#entry {
+  border-radius: 20px;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+
+#entry:nth-child(even){
+  background-color: #404552;
+}
+
+#entry:selected {
+  background-color: #4C566A;
+}
+
+#text:selected {
+  background: transparent;
+}
